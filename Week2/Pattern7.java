@@ -42,9 +42,8 @@ n= 6
 
  */
 
-import java.util.Scanner;
 
-class Pattern7 {
+/* class Pattern7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -60,5 +59,19 @@ class Pattern7 {
         }
 
         scanner.close();
+    }
+} */
+
+    class Pattern7 {
+    public static void main(String[] args) {
+
+        int n = 4;
+
+        for(int i = n; i <= n; i--) {
+            for(int j = i; j >= 1  ; j--) {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
     }
 }

@@ -17,8 +17,7 @@ y
 import java.util.Scanner;
 
 class Problem1 {
-   Problem1() {
-   }
+
 
    public static void main(String[] var0) {
       Scanner var1 = new Scanner(System.in);
