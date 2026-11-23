@@ -17,7 +17,7 @@ class KthDigit {
 
         while(n>0) {
             long ld = n%10;
-            
+            System.out.print(ld);
             if(count == K) {
             System.out.print(ld);
             }
