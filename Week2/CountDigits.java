@@ -1,6 +1,6 @@
 package Week2;
 
-//FTo count the total number of digits of the given input number
+//to count the total number of digits of the given input number
 import java.util.Scanner;
 
 class CountDigits {
