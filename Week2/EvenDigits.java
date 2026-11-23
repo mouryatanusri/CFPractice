@@ -1,6 +1,6 @@
 package Week2;
 
-//FTo count the total number of Even digits of the given input number
+//To count the total number of Even digits of the given input number
 import java.util.Scanner;
 
 class EvenDigits {
