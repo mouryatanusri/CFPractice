@@ -31,3 +31,23 @@ class KthDigit {
         
     }
 }
+
+//Geeks for geeks - Self-solved Answer 
+/* class Solution {
+    static long kthDigit(int a, int b, int k) {
+        // code here
+    long count = 0;
+    
+    long n = (long) Math.pow(a,b);
+    
+    while(n>0) {
+        count ++;
+        long ld = n%10;
+        if(count == k) {
+            return ld;
+        }
+        n = n/10;
+    }
+    return 0;
+    }
+} */
