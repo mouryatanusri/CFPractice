@@ -14,9 +14,9 @@ class PalindromeNumbers {
             n = n/10;
         }
         if(sum == num){
-            System.out.print("Given number is a Palindrome Number");
+            System.out.print(num + " is a Palindrome Number");
         } else {
-            System.out.print("Given number is NOT a Palindrome Number");
+            System.out.print(num + " is NOT a Palindrome Number");
         }
     }
 } 

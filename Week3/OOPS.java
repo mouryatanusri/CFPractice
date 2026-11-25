@@ -2,7 +2,7 @@ package Week3;
 
 public class OOPS {
     /*
-    //OOPS Concept 
+    //OOPS Concept - Basics 1
 class Human {
     //Properties or Atributes
     int age;
